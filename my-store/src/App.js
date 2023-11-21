@@ -14,11 +14,10 @@ function App() {
           <Nav>Men's Clothing Store Website</Nav>
           <Billboard /> 
           <Routes>
-            <Route path="/" element={<div></div>} />
+            <Route path="/" element={<Products/>} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-          <Products/>
         </div>
       </BrowserRouter>
     );
