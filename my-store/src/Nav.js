@@ -1,9 +1,8 @@
 import './Nav.css';
 import Grid from '@mui/material/Grid';
-import { BrowserRouter, Link} from "react-router-dom";
+import { Link} from "react-router-dom";
 function Nav(props){
     return(
-    <BrowserRouter>
          <Grid container spacing={2}>
             <Grid item xs={9}>
                 <div className='Line'>
@@ -16,7 +15,6 @@ function Nav(props){
                 <div className='Line'>{props.children}</div>
             </Grid>
          </Grid>
-    </BrowserRouter>
     )
 }
 export default Nav;

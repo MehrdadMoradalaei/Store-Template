@@ -11,6 +11,7 @@
     color: white;
     margin: 0 15px;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navBtn:hover{
     font-style: italic;
