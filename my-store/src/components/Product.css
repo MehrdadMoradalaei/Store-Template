@@ -1,0 +1,15 @@
+.productContainer{
+    width: 455px;
+    height: 600px;
+    background-color: rgb(220, 217, 217);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    display: inline-block;
+    -webkit-box-shadow: -2px 10px 15px -7px rgba(0, 0, 0, 0.46);
+    box-shodow: -2px 10px 15px -7px rgba(0, 0, 0, 0.46); 
+}
+.productContainer:hover{
+    border-color: blue;
+}

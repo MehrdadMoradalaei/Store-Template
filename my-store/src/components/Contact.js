@@ -2,13 +2,14 @@ import './About.css';
 function Contact() {
     return (
       <div className='About'>    
-          <h1>Costumer Serice</h1>
+          <h1>Costumer Service</h1>
 <h3>Our Customer Assistance team are available to help by email or chat between the hours of:</h3>  
 
 <h3>•         Monday to Friday from 8:00 to 22:00 CET</h3>
 <h3>•         Saturday, Sunday and Bank Holidays from 10:00 to 18:30 CET</h3>  
 
-<h3>You can contact Ralph Lauren Customer Assistance Team via e-mail at: CustomerAssistance@RalphLauren.de. If you prefer chatting with one of our representatives, click the blue label on the bottom-left of this screen and a member of our team will respond as soon as possible.
+<h3>You can contact Ralph Lauren Customer Assistance Team via e-mail at: CustomerAssistance@RalphLauren.de.</h3>
+<h3> If you prefer chatting with one of our representatives, click the blue label on the bottom-left of this screen and a member of our team will respond as soon as possible.
 
 One of our representatives will be happy to assist you over the phone at the following number:</h3>  
 

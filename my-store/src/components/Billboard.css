@@ -1,6 +1,6 @@
 .firstPic{
     width: 100%;
     height: 450px;
-    background-image: url(./assets/pictures/Billboard.jpg);
+    background-image: url(../assets/pictures/Billboard.jpg);
     background-size:auto;
 }

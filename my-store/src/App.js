@@ -1,21 +1,24 @@
 import './App.css';
-import Nav from './Nav';
-import Billboard from './Billboard';
-import About from './About';
-import Contact from './Contact';
+import Nav from './components/Nav';
+import Billboard from './components/Billboard';
+import About from './components/About';
+import Contact from './components/Contact';
+import Products from './components/Products';
 import {Routes, Route, BrowserRouter } from 'react-router-dom';
+
 
 function App() {
     return (
       <BrowserRouter>
         <div>
           <Nav>Men's Clothing Store Website</Nav>
-          <Billboard />
+          <Billboard /> 
           <Routes>
             <Route path="/" element={<div></div>} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <Products/>
         </div>
       </BrowserRouter>
     );
