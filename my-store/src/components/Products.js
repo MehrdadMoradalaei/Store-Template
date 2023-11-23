@@ -13,14 +13,14 @@ import p8 from '../assets/pictures/8.jpg';
 function Products(){
     return(
         <div>
-            <Product imgSrc={p1} pTitle="Polo Jacke"/>
-            <Product imgSrc={p2} pTitle="Polo Jacke"/>
-            <Product imgSrc={p3} pTitle="Polo Jacke"/>
-            <Product imgSrc={p4} pTitle="Polo Jacke"/>
-            <Product imgSrc={p5} pTitle="Polo Jacke"/>
-            <Product imgSrc={p6} pTitle="Polo Jacke"/>
-            <Product imgSrc={p7} pTitle="Polo Jacke"/>
-            <Product imgSrc={p8} pTitle="Polo Jacke"/>
+            <Product imgSrc={p1} pTitle="Polo Jacke" pDescription="100% Cotton"/>
+            <Product imgSrc={p2} pTitle="Polo Jacke" pDescription="90% Cotton"/>
+            <Product imgSrc={p3} pTitle="Polo Jacke" pDescription="85% Cotton"/>
+            <Product imgSrc={p4} pTitle="Polo Jacke" pDescription="80% Cotton"/>
+            <Product imgSrc={p5} pTitle="Polo Jacke" pDescription="950% Cotton"/>
+            <Product imgSrc={p6} pTitle="Polo Jacke" pDescription="70% Cotton"/>
+            <Product imgSrc={p7} pTitle="Polo Jacke" pDescription="100% Cotton"/>
+            <Product imgSrc={p8} pTitle="Polo Jacke" pDescription="50% Cotton"/>
         </div>
     )
 }

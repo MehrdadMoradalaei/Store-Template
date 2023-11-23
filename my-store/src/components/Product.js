@@ -1,12 +1,16 @@
-import { red } from '@mui/material/colors';
 import './Product.css';
 
 function Product(props){
     return(
     <div className='productContainer'>
-    <img className='productImage' src={props.imgSrc} alt={props.pTitle}/>
+        <div className='productImage' style={{backgroundImage: `url(${props.imgSrc})`, backgroundSize:`cover`}}>
+            <div className='addBtn'>
+
+            </div>
+        </div>
     <h4>{props.pTitle}</h4>
+    <h6>{props.pDescription}</h6>
     </div>
-    )
+    );
 }
 export default Product;
