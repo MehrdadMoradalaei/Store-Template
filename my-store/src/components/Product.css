@@ -26,12 +26,19 @@
     border-radius: 10px;
 }
 .addBtn{
+    visibility: hidden;
+    text-align: center;
+    padding: auto;
+}
+.productContainer:hover .addBtn {
+    visibility: visible;
     position: absolute;
-    bottom: 0;
     width: 70px;
     height: 70px;
     top: 70%;
     transform: translateY(-50%);
     border-radius: 50%;
-    background-color: rgb(75, 52, 164);
-}
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  

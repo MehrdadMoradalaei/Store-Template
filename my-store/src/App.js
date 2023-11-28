@@ -4,6 +4,7 @@ import Billboard from './components/Billboard';
 import About from './components/About';
 import Contact from './components/Contact';
 import Products from './components/Products';
+import Home from './components/Home';
 import {Routes, Route, BrowserRouter } from 'react-router-dom';
 
 
@@ -12,12 +13,14 @@ function App() {
       <BrowserRouter>
         <div>
           <Nav>Men's Clothing Store Website</Nav>
-          <Billboard /> 
+          <Billboard/>
           <Routes>
-            <Route path="/" element={<Products/>} />
+            <Route path="/" element={<Home/>} />
+            <Route path="/products" element={<Products/>} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+
         </div>
       </BrowserRouter>
     );
