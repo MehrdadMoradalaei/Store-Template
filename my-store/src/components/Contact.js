@@ -15,8 +15,8 @@ One of our representatives will be happy to assist you over the phone at the fol
 
 <h3>Germany: +49 (0) 69 945 19 22 92</h3>
 
-<h3>•         Monday to Friday from 09:00 to 17:00 CET</h3>
-<h3>•         Saturday from 10:00 to 18:00 CET</h3>
+<h3>•Monday to Friday from 09:00 to 17:00 CET</h3>
+<h3>•Saturday from 10:00 to 18:00 CET</h3>
 
 
 <h3>In addition, you can refer to the Customer Service Menu on the left side of this screen for answers to the most frequently asked questions.
