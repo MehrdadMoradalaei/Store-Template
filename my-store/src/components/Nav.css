@@ -5,6 +5,8 @@
     background-color: rgb(25, 8, 87);
     padding: 7px;
     color: white;
+    z-index: 1;
+
 }
 .navBtn{
     background-color: rgb(25, 8, 87);

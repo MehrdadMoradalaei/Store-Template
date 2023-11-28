@@ -1,13 +1,16 @@
 
 .image-container {
     position: relative;
-    margin: 13% 55% 1% 45%;
+    margin: 13% 56.5% 1% 43.5%;
     width: 250px;
     min-height: 450px;
     transform-style: preserve-3d;
     transform: perspective(1000px) rotateY(0deg);
-    transition: all 2s ease-in-out;
-    display: inline-block;
+    transition: all 1s ease-in-out;
+    display: block;
+}
+.image-container:hover {
+    cursor: pointer;
 }
 .image-container span {
     position: absolute;
@@ -27,27 +30,27 @@
 }
 .buttons {
     position: relative;
-    display: inline-block;
+    display: block;
+    height: 50px;
     width: 80%;
     margin: 10px auto;
+    
 }
 .btn {
     position: absolute;
-    bottom: -80px;
-    background-color: rgb(34, 34, 101);
+    background-color: rgb(53, 53, 72);
     color: white;
-    margin-left:30%;
     width: 130px;
     height: 40px;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 2px;
-    text-transform: uppercase;
     border-radius: 5px;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 .btn:hover {
     filter:brightness(1.5);
@@ -56,7 +59,7 @@
     transform:scale(0.95);
 }
 .prev {
-    left:20%;
+    left:25%;
 }
 .next {
     right:20%
